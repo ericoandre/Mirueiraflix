@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,MAAM,CAAC,UAAU,CAAA;IACb,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;GACzB;EAED,AAAA,MAAM,CAAA;IACF,UAAU,EAAE,GAAG;IACf,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,IAAI;GACf;;;AAEL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,UAAU,CAAA;IACN,KAAK,EAAE,KAAK;GACf",
+    "sources": [
+        "responcive-estilo.scss"
+    ],
+    "names": [],
+    "file": "responcive-estilo.css"
+}

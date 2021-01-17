@@ -1,0 +1,122 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #141414;
+  font-family: 'Arial', Times, serif;
+  color: #fff;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logon {
+  height: 85px;
+  width: 167px;
+  background: url("../img/Netflix-Logo.png");
+  background-size: cover;
+  margin-left: 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/* filme principal */
+.filme-principal {
+  height: 400px;
+  font-size: 16px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/fundo.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url("../img/fundo.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin-top: 15%;
+}
+
+.filme-principal .botao {
+  background-color: rgba(109, 109, 110, 0.7);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.filme-principal .botao:hover {
+  background-color: #fff;
+  color: #141414;
+}
+
+.filme-principal .botao i {
+  margin-right: 8px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-principal .container {
+  width: 70%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.carrocel-filmes {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=estilo.css.map */
